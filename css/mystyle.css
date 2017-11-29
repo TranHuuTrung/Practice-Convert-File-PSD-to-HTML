@@ -1,6 +1,7 @@
 body{
     font-family: Georgia;
-    line-height: 1.6em;
+    line-height: 22px;
+    box-sizing: border-box;
 }
 #wrapper{
     background: #ffffff;
@@ -102,7 +103,7 @@ body{
     /* position: absolute;
     background: #ffffff;
     height: 50px; */
-    background: red;
+    background: rgb(192, 166, 166);
     height: 50px;
    
 }
@@ -111,37 +112,114 @@ body{
     border-top-left-radius: 12px;
     height: 55px; 
 }
+.b1{
+    background-image: url("images/controls-left-arrow.png");
+}
 
 /* style services  */
+#services{
+    text-align: center;
+    background: red;
+}
+.sub-services:first-of-type{
+    margin-left: 30px;
+}
 .sub-services{
     width: 211px;
     height: 243px;
     display: block;
-    margin:20px; 
+    margin-right:19px;
     text-align: center;
 }
-..sub-services p{
-    text-align: justify;
+.sub-services:last-of-type{
+    margin-top: 0px;
+}
+.sub-services p{
+    text-align: left;
+    color: #807d77;
+    font-size: 13px;
+}
+.sub-services h3{
+    font-size: 18px;
+    padding-top: 21px;
+    color: #55415f;
+    /* padding-bottom: 21px; */
+    font-weight: bold;
 }
 
 /* style shout */
 #shout{
     font-size: 18px;
     color: #222222;
-    text-align: justify;
+    text-align: center;
 }
+#shout{
+    padding-top: 24px;
+    padding-bottom: 27px;
+}
+
+/* style laterestwork */
+.sub-latest-work{
+    height: 360px;
+    width: 225px;
+    margin-right: 19px;
+}
+.sub-latest-work:last-of-type{
+    margin-right: 0px;
+}
+.sub-latest-work h3{
+    font-size: 18px;
+    color: #7f7d77;
+    padding-top:13px;
+    padding-bottom:21px;
+}
+.sub-latest-work p{
+    margin-top:18px;
+    margin-bottom:16px;
+}
+
+
+/* style footer */
 #footer{
     background: #222222;
+    padding-top: 30px;
+    font-size: 12px;
+}
+.sub-footer{
+    width: 225px;
+    height:250px;
+    margin-right:19px;
+}
+.sub-footer:last-of-type{
+    margin-right:0px;
+}
+.sub-footer h3{
+    font-size: 18px;
+    color:#ffffff;
+    padding-bottom: 23px;
+}
+.sub-footer h5{
+    font-size:13px;
+    color: #9f81a9;
+}
+.sub-footer a{
+    color: #9f81a9;
 }
 .form-control{
   background: #353535;
   color: #ffffff;
   border: #353535;
 }
+#social{
+    margin-top:20px;
+}
+
 .copyright{
     background: #202020;
 }
-
+.copyright p{
+    padding-bottom:10px;
+}
 .rounded-circle{
     background: #353535;
     shape-outside: 25px;
@@ -152,6 +230,13 @@ body{
 
 
 
+
+
+
+
+
+
+/* 
 
 
 
@@ -169,4 +254,4 @@ body{
         width:1100px;
         margin: 0px auto; 
     }
-}
+} */
