@@ -1,0 +1,172 @@
+body{
+    font-family: Georgia;
+    line-height: 1.6em;
+}
+#wrapper{
+    background: #ffffff;
+}
+/* center for every have 960px of width */
+.wp-inner{
+    width:960px;
+    margin: 0px auto;
+}
+.fl-left{ float: left;}
+.fl-right{float: right;}
+/* style topbar */
+#topbar{
+    background: #55415f;
+    padding: 9px 0px 10px 0px;
+    font-size: 11px;  
+}
+#topbar a{
+    color: #ffffff;
+}
+#top-menu li{
+    float: left;
+}
+#top-menu li a{
+    padding-left: 4px;
+    padding-right: 6px;
+    border-right: 2px solid #ffffff;
+}
+#top-menu li:last-child a{
+    border: none;
+}
+
+/* style header */
+#header{
+    padding: 38px 0px 38px 0px;
+}
+#header a{
+    color: #333333;
+    text-decoration: none;
+}
+#logo a{
+    font-size: 26px;
+}
+#logo p{
+    font-size: 12px;
+    margin-top: 14px;
+}
+#main-menu li{
+    float: left;
+    padding: 21px 0px 22px 20px;
+    /* padding-bottom: 2px solid red;  */
+}
+#main-menu li a{
+    padding-bottom: 18px;
+    border-bottom: 2px solid #ebebeb; 
+}
+#main-menu li a:hover{
+    color: #55415f;
+    padding-bottom: 17px;
+    border-bottom: 3px solid #55415f;
+}
+
+/* style slider */
+#slider{
+    background: #ebebeb;
+}
+#item-slider{
+    position: relative;
+}
+.minitor{
+    margin: 25px 44px 6px 0px;
+}
+#textblock{
+    position: absolute;
+    top: 140px;
+    left:576px;
+}
+.title-textblock{
+    font-size: 36px;
+    margin-bottom: 29px;
+    color: #55415f;
+}
+#textblock p{
+    margin-bottom: 28px;
+    color: #999999;
+}
+#textblock a{
+    text-decoration: none;
+    border: 1px solid #55415f;
+    border-radius: 10px;
+    padding: 10px 12px;
+    color: #ffffff;
+    background: #55415f;
+}    
+#textblock a:hover{
+    background: #a232df;
+}
+.controls{
+    /* position: absolute;
+    background: #ffffff;
+    height: 50px; */
+    background: red;
+    height: 50px;
+   
+}
+#previous{
+    border : 1px solid #ffffff;
+    border-top-left-radius: 12px;
+    height: 55px; 
+}
+
+/* style services  */
+.sub-services{
+    width: 211px;
+    height: 243px;
+    display: block;
+    margin:20px; 
+    text-align: center;
+}
+..sub-services p{
+    text-align: justify;
+}
+
+/* style shout */
+#shout{
+    font-size: 18px;
+    color: #222222;
+    text-align: justify;
+}
+#footer{
+    background: #222222;
+}
+.form-control{
+  background: #353535;
+  color: #ffffff;
+  border: #353535;
+}
+.copyright{
+    background: #202020;
+}
+
+.rounded-circle{
+    background: #353535;
+    shape-outside: 25px;
+}
+.rounded-circle a:hover{
+    background: #e6f091;
+}
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+    .wp-inner-small{
+        width:960px;
+        margin: 10px auto; 
+    }
+   
+}
+
+@media (min-width: 1001px){
+    .wp-inner-middle{
+        width:1100px;
+        margin: 0px auto; 
+    }
+}
