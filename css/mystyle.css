@@ -201,6 +201,9 @@ body{
 .sub-footer h5{
     font-size:13px;
     color: #9f81a9;
+}.sub-footer h6{
+    font-size: 10px;
+    margin-bottom: 15px;
 }
 .sub-footer a{
     color: #9f81a9;
@@ -213,7 +216,12 @@ body{
 #social{
     margin-top:20px;
 }
-
+#social a{
+    margin-right: 15px;
+}
+#social a:hover{
+    background: #fcf8cb;
+}
 .copyright{
     background: #202020;
 }
