@@ -216,26 +216,22 @@ body{
 #social{
     margin-top:20px;
 }
-#social a{
-    margin-right: 15px;
+.icon-social{
+    padding: 9px;
+    background: #353535;
+    border-radius: 50%;
 }
-#social a:hover{
-    background: #fcf8cb;
+.icon-social:hover{
+   background: #e6f091;
 }
+
+
 .copyright{
     background: #202020;
 }
 .copyright p{
     padding-bottom:10px;
 }
-.rounded-circle{
-    background: #353535;
-    shape-outside: 25px;
-}
-.rounded-circle a:hover{
-    background: #e6f091;
-}
-
 
 
 
