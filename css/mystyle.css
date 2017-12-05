@@ -36,19 +36,13 @@ body{
 
 /* style header */
 #header{
-    padding: 38px 0px 38px 0px;
+    padding: 37px 0px 37px 0px;
 }
 #header a{
     color: #333333;
     text-decoration: none;
 }
-#logo a{
-    font-size: 26px;
-}
-#logo p{
-    font-size: 12px;
-    margin-top: 14px;
-}
+
 #main-menu li{
     float: left;
     padding: 21px 0px 22px 20px;
@@ -152,9 +146,10 @@ body{
     margin-top: 0px;
 }
 .sub-services p{
-    text-align: left;
+    text-align: justify;
     color: #807d77;
     font-size: 13px;
+    text-indent: 17px;
 }
 .sub-services h3{
     font-size: 18px;
@@ -193,6 +188,9 @@ body{
     margin-top:18px;
     margin-bottom:16px;
 }
+.sub-latest-work a {
+    color: #55415f;
+}
 
 
 /* style footer */
@@ -228,6 +226,8 @@ body{
   background: #353535;
   color: #ffffff;
   border: #353535;
+  display: inline;
+  margin-bottom: 10px;
 }
 #social{
     margin-top:20px;
@@ -240,11 +240,34 @@ body{
 .icon-social:hover{
    background: #e6f091;
 }
-
+.btn-submit{
+    background-color: #9f81a9;
+    border-color: #9f81a9;
+}
+.btn-submit:hover{
+    background: #a232df;
+    border-color: #a232df;
+}
 
 .copyright{
+    border-top: 1px solid #000000;
     background: #202020;
 }
 .copyright p{
-    padding-bottom:10px;
+    padding-top: 25px;
+    padding-bottom:25px;
 }
+
+
+/* reponsive */
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
