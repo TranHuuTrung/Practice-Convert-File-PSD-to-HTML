@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     font-family: Georgia;
     line-height: 22px;
     box-sizing: border-box;
@@ -126,7 +127,7 @@ body{
 .sub-services{
     position: relative;
     width: 211px;
-    height: 243px;
+    height: 280px;
     display: block;
     padding-top: 35px;
     margin-right:19px;
@@ -266,11 +267,11 @@ body{
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
     .wp-inner{
-        width:750px;
+        width:700px;
         margin: 0px auto;
     }
     .minitor{
-        width: 360px;
+        width: 340px;
         height: 230px;
         margin: 25px 44px 6px 0px;
     }
@@ -306,10 +307,32 @@ body{
         background: #ffffff;
     }
     .space{
-        width: 686px;
+        width: 636px;
         height: 35px;
     }
-    
+    #latest-work{
+        margin: 0px 132px
+    }
+    .sub-footer{
+        margin-right: 45px;
+    }
+    .sub-footer:nth-child(3){
+        margin-right: 0px;
+    }
+    #newsletter-social{
+        width: 700px;
+        height:250px;
+        margin-right:19px;
+    }
+    .btn-submit{
+        float: right;
+        margin-right: 50px;
+    }
+    #social {
+        margin-top: 50px;
+        float: right;
+        margin-right: -85px;
+    }
  }
 
  /* Large devices (desktops, 992px and up) */
@@ -326,11 +349,29 @@ body{
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .wp-inner{
-        width:960px;
+        width:1200px;
         margin: 0px auto;
     }
     .minitor{
         margin: 25px 44px 6px 0px;
     }
-
+    .space {
+        width: 1136px;
+    }
+    #textblock {
+        top: 90px;
+        left: 650px;
+    }
+    .sub-services {
+        width: 238px;
+        margin-right: 54px;
+    }
+    .sub-latest-work {
+        width: 262px;
+        margin-right: 50px;
+    }
+    .sub-footer {
+        width: 250px;
+        margin-right: 66px;
+    }
  }
