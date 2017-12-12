@@ -39,20 +39,22 @@ body{
 #header a{
     color: #333333;
     text-decoration: none;
+    /* font-size: 15px; */
 }
-
+#main-menu{
+    border-bottom: 2px solid #ebebeb; 
+}
 #main-menu li{
     float: left;
-    padding: 21px 0px 22px 20px;
+    padding: 18px 0px 15px 25px;
 }
-#main-menu li a{
-    padding-bottom: 18px;
-    border-bottom: 2px solid #ebebeb; 
+#main-menu li:first-child{
+    padding-left: 0px;
 }
 #main-menu li a:hover{
     color: #55415f;
-    padding-bottom: 17px;
-    border-bottom: 3px solid #55415f;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #55415f;
 }
 
 /* style slider */
@@ -81,7 +83,7 @@ body{
     text-decoration: none;
     border: 1px solid #55415f;
     border-radius: 10px;
-    padding: 10px 12px;
+    padding: 8px 10px;
     color: #ffffff;
     background: #55415f;
 }    
@@ -91,7 +93,7 @@ body{
 .controls{
     position: absolute;
     height: 50px;
-    top: 377px;  
+    top: 370px;  
 }
 .controls a{
     width: 30px;
@@ -194,6 +196,7 @@ body{
     background: #222222;
     padding-top: 30px;
     font-size: 12px;
+    color: #807d77;
 }
 .sub-footer{
     width: 220px;
@@ -214,6 +217,7 @@ body{
 }.sub-footer h6{
     font-size: 10px;
     margin-bottom: 15px;
+    margin-top: 5px;
 }
 .sub-footer a{
     color: #9f81a9;
@@ -225,16 +229,23 @@ body{
   display: inline;
   margin-bottom: 10px;
 }
-#social{
-    margin-top:20px;
+.qoute-link{
+    display: inline;
+    margin-right: 5px;
+    color: #ffffff;
 }
-.icon-social{
-    padding: 9px;
-    background: #353535;
+.social {
+    margin-top: 30px;
+  }
+.icon-social {
+    width: 35px;
+    height: 35px;
+    background-color: #353535;
     border-radius: 50%;
+    margin-left: 5px;
 }
 .icon-social:hover{
-   background: #e6f091;
+   background-color: #e8f07d;
 }
 .btn-submit{
     background-color: #9f81a9;
@@ -259,8 +270,51 @@ body{
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) { 
     .wp-inner{
-        width:560px;
+        width:572px;
         margin: 0px auto;
+    }
+    .minitor{
+        width: 240px;
+        height: 200px;
+        margin: 25px 15px -1px 0px;
+    }
+    #textblock{
+        position: absolute;
+        top: 15px;
+        left: 300px;
+    }
+   
+    .title-textblock {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #textblock p {
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    #textblock a{
+        font-size: 11px;
+        border-radius: 10px;
+        padding: 4px;
+        margin-top: -10px;
+        display: block;
+        width: 86px;
+    }
+    .space{
+        width: 508px;
+        height: 35px;
+    }
+    .controls{
+        position: absolute;
+        height: 35px;
+        top: 202px;  
+    }
+    .controls a{
+        width: 30px;
+        padding-top: 7px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        background: #ffffff;
     }
  }
 
@@ -270,12 +324,28 @@ body{
         width:700px;
         margin: 0px auto;
     }
+    .nav-button-icon{
+        float: right;
+    }
+    .nav-item{
+        clear: both;
+        margin-left: 14px;
+        margin-right: 14px;
+        font-size: 15px;
+    }
+    .nav {
+        margin-top: 10px;
+        text-align: left;
+      }
     .minitor{
         width: 340px;
         height: 230px;
-        margin: 25px 44px 6px 0px;
+        margin: 25px 44px 16px 0px;
     }
-    
+    .space{
+        width: 636px;
+        height: 45px;
+    }
     #textblock{
         position: absolute;
         top: 15px;
@@ -292,7 +362,10 @@ body{
     #textblock a{
         font-size: 13px;
         border-radius: 10px;
-        padding:8px;
+        padding: 5px;
+        margin-top: -21px;
+        display: block;
+        width: 102px;
     }
     .controls{
         position: absolute;
@@ -306,15 +379,26 @@ body{
         padding-left: 5px;
         background: #ffffff;
     }
-    .space{
-        width: 636px;
-        height: 35px;
+    .content-center-fortablet{
+        width: 600px;
+        margin: 0px auto;
     }
-    #latest-work{
-        margin: 0px 132px
+
+    .clear-mg-right {
+        margin-right: 0px;
+    }
+    .sub-services{
+        /* margin-top: 10px; */
+        margin-bottom: 40px;
+    }
+    .sub-services:nth-child(3){
+        margin-left: 30px;
+    }
+    .mg-right{
+        margin-right: 135px;
     }
     .sub-footer{
-        margin-right: 45px;
+        margin-right: 20px;
     }
     .sub-footer:nth-child(3){
         margin-right: 0px;
@@ -341,8 +425,11 @@ body{
         width:960px;
         margin: 0px auto;
     }
+    #header a{
+        font-size: 12px;
+    }
     .minitor{
-        margin: 25px 44px 6px 0px;
+        margin: 25px 44px -1px 0px;
     }
 }
 
@@ -352,8 +439,11 @@ body{
         width:1200px;
         margin: 0px auto;
     }
+    #header a{
+        font-size: 15px;
+    }
     .minitor{
-        margin: 25px 44px 6px 0px;
+        margin: 25px 44px -1px 0px;
     }
     .space {
         width: 1136px;
