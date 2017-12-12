@@ -73,7 +73,7 @@ body{
 .title-textblock{
     font-size: 36px;
     margin-bottom: 29px;
-    color: #55415f;
+    color: #333333;
 }
 #textblock p{
     margin-bottom: 28px;
@@ -172,19 +172,21 @@ body{
     height: 360px;
     width: 225px;
     margin-right: 19px;
+    font-size: 13px;
+    color: #807d77;
 }
 .sub-latest-work:last-of-type{
     margin-right: 0px;
 }
 .sub-latest-work h3{
     font-size: 18px;
-    color: #7f7d77;
     padding-top:13px;
     padding-bottom:21px;
 }
 .sub-latest-work p{
     margin-top:18px;
     margin-bottom:16px;
+    
 }
 .sub-latest-work a {
     color: #55415f;
@@ -388,7 +390,6 @@ body{
         margin-right: 0px;
     }
     .sub-services{
-        /* margin-top: 10px; */
         margin-bottom: 40px;
     }
     .sub-services:nth-child(3){
